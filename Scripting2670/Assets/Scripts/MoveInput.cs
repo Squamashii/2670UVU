@@ -12,4 +12,10 @@ public class MoveInput : MonoBehaviour {
 			KeyAction(Input.GetAxis("Horizontal"));
 		} 
 	}
+
+	void OnPlay ()
+	{
+		
+	}
+
 }
