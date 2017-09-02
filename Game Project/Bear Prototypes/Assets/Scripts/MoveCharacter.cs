@@ -8,18 +8,46 @@ public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
+    public float speed = 5;
+	public float gravity = 1;
+    public float jumpHeight = 0.2f;
+	public float doubleJumpHeight = 0.2f;
+	int canJump = 1;
+	public int jumpCount = 0;
 
-	public float speed = 5;
-
-	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		cc = GetComponent<CharacterController>();
-		MoveInput.KeyAction += Move;
+		PlayButton.Play += OnPlay;
 	}
-	
-	// Update is called once per frame
+
+	void OnPlay(){
+		MoveInput.JumpAction = Jump;
+		MoveInput.KeyAction += Move;
+		PlayButton.Play -= OnPlay;
+	}
+
+	void Jump(){
+				
+		if(cc.isGrounded)
+		{
+			tempMove.y = jumpHeight;
+			jumpCount = 1;
+		}
+
+		else if(jumpCount == canJump)
+		{
+			tempMove.y = doubleJumpHeight;
+			jumpCount = 0;
+		}
+		
+	}
+
 	void Move (float _movement) {
+		tempMove.y -= gravity*Time.deltaTime;
 		tempMove.x = _movement*speed*Time.deltaTime;
+		print("move");
 		cc.Move(tempMove);
 	}
 }
+
