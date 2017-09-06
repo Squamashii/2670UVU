@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prototype One.unity
     guid: 20528087661883143bf56b56638625a3
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: d9b22faf165862247ad22127152565ed
