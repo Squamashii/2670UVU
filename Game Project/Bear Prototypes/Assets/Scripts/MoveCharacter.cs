@@ -40,6 +40,11 @@ public class MoveCharacter : MonoBehaviour {
 			tempMove.y = doubleJumpHeight;
 			jumpCount = 0;
 		}
+
+		else
+		{
+			tempMove.y = (gravity += 0);
+		}
 		
 	}
 
