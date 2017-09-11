@@ -19,6 +19,7 @@ public class MoveCharacter : MonoBehaviour {
 	{
 		cc = GetComponent<CharacterController>();
 		PlayButton.Play += OnPlay;
+		
 	}
 
 	void OnPlay(){
@@ -33,6 +34,7 @@ public class MoveCharacter : MonoBehaviour {
 		{
 			tempMove.y = jumpHeight;
 			jumpCount = 1;
+					
 		}
 
 		else if(jumpCount == canJump)
@@ -40,11 +42,12 @@ public class MoveCharacter : MonoBehaviour {
 			tempMove.y = doubleJumpHeight;
 			jumpCount = 0;
 		}
-
 		else
 		{
-			tempMove.y = (gravity += 0);
+			gravity = 1;
 		}
+
+		
 		
 	}
 

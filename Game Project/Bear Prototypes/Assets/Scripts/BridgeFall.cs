@@ -10,8 +10,7 @@ void Start() {
 	}
 	public void OnTriggerEnter()
 	{
-			BridgeSection.isKinematic = true;
-			BridgeSection.useGravity = true;
+			BridgeSection.isKinematic = false;
 			print("bridge is falling");
 	}
 }
