@@ -9,6 +9,7 @@ public static Action End; //Static makes it global, cannot be the same name as t
 
 	void OnTriggerEnter(Collider other)
 	{
+		if(other.name == "Player")
 		End();
 	}
 
