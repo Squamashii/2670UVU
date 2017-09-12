@@ -2,9 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class CollectArtifact : MonoBehaviour {
 
+	public static Action ArtifactGrab;
+	public GameObject Artifact;
+
+	public void OnTriggerEnter(Collider other)
+	{
+		Artifact.SetActive(false);
+		ArtifactGrab();
+		
+		print("GOT IT");
+	} 
+
+/*
 	public GameObject EnableArtifact;
 	//public Text artifactText;
 	//public int artifactCount = 0;
@@ -22,7 +35,7 @@ public class CollectArtifact : MonoBehaviour {
 				
 		}
 	}
-
+*/
 
 }
 
