@@ -4,12 +4,20 @@ using UnityEngine;
 using System;
 
 public class Checkpoint : MonoBehaviour {
+public Transform Player;
+public Transform CheckpointLoc;
 
-public static Action Checkpoint1;
+/*public static Action Checkpoint1;
 	public void OnTriggerEnter(Collider other)
 	{
 			if(other.name == "Player"){
-			Checkpoint1();
+			Checkpoint1(Transform CheckpointLoc);
 			}
+	}*/
+	public void OnTriggerEnter(Collider other)
+		{
+		if(other.name == "Player"){
+		Player.transform.position = CheckpointLoc.transform.position;
+		}
 	}
 }

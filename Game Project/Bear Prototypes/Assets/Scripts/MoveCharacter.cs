@@ -26,6 +26,7 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.JumpAction = Jump;
 		MoveInput.KeyAction += Move;
 		PlayButton.Play -= OnPlay;
+
 	}
 
 	void Jump(){
@@ -34,20 +35,17 @@ public class MoveCharacter : MonoBehaviour {
 		{
 			tempMove.y = jumpHeight;
 			jumpCount = 1;
-					
+							
 		}
 
 		else if(jumpCount == canJump)
 		{
+			//gravity = 1;
 			tempMove.y = doubleJumpHeight;
 			jumpCount = 0;
 		}
-		else
-		{
-			gravity = 1;
-		}
 
-		
+			
 		
 	}
 

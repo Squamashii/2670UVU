@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerCheckpoint : MonoBehaviour {
 
-	public Transform checkLocation;
+	/*public Transform checkLocation;
 	// Use this for initialization
 	void Start () {
 		Checkpoint.Checkpoint1 += DropPlayer;
@@ -15,6 +15,6 @@ public class PlayerCheckpoint : MonoBehaviour {
     {
        transform.position = checkLocation.position;
     }
-
+*/
     
 }
