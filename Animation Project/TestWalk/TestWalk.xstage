@@ -70,7 +70,6 @@
     <dwg name="18" scaleFactor="1"/>
     <dwg name="19" scaleFactor="1"/>
    </drawings>
-   <layers/>
   </element>
   <element id="7" elementName="Construction" elementFolder="Construction" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
@@ -110,7 +109,7 @@
  <scenes>
   <scene name="Top" id="08caff2ee9c00a0b" nbframes="36">
    <columns>
-    <column type="0" name="ATV-08CAFF2EE9C1CF49" displayOrder="6" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08CAFF2EE9C1CF49" display="false" displayOrder="6" width="100" anonymous="true" id="2">
      <elementSeq exposures="1,2-49,50" val="1" id="2"/>
     </column>
     <column type="0" name="ATV-08CAFF2EE9C2778D" displayOrder="5" width="100" anonymous="true" id="4">
@@ -127,7 +126,7 @@
      <elementSeq exposures="31-33" val="11" id="4"/>
      <elementSeq exposures="34-36" val="12" id="4"/>
     </column>
-    <column type="0" name="ATV-08CAD9C72BE0874A" displayOrder="3" width="100" anonymous="true" id="5">
+    <column type="0" name="ATV-08CAD9C72BE0874A" display="false" displayOrder="3" width="100" anonymous="true" id="5">
      <elementSeq exposures="1-2" val="1" id="5"/>
      <elementSeq exposures="3-4" val="19" id="5"/>
      <elementSeq exposures="5-6" val="2" id="5"/>
@@ -216,9 +215,9 @@
      <elementSeq exposures="33-34" val="18" id="6"/>
      <elementSeq exposures="35-36" val="19" id="6"/>
     </column>
-    <column type="0" name="ATV-08CB4EF5F9BD9924" displayOrder="1" width="100" anonymous="true" id="7">
-     <elementSeq exposures="1-2" val="1" id="7"/>
-     <elementSeq exposures="3-4" val="2" id="7"/>
+    <column type="0" name="ATV-08CB4EF5F9BD9924" display="false" displayOrder="1" width="100" anonymous="true" id="7">
+     <elementSeq exposures="1-2,37-38" val="1" id="7"/>
+     <elementSeq exposures="3-4,39-40" val="2" id="7"/>
      <elementSeq exposures="5-6" val="3" id="7"/>
      <elementSeq exposures="7-8" val="4" id="7"/>
      <elementSeq exposures="9-10" val="5" id="7"/>
@@ -298,6 +297,7 @@
      </module>
      <module type="READ" name="BackGround" pos="0,0,0" publishUnderTab="BackGround">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -403,6 +403,7 @@
      </module>
      <module type="READ" name="Line_OlderBoy_walk" pos="0,0,0" publishUnderTab="Line_OlderBoy_walk">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -507,6 +508,7 @@
      </module>
      <module type="READ" name="BoyCleanUp" pos="0,0,0" publishUnderTab="BoyCleanUp">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -716,6 +718,7 @@
      </module>
      <module type="READ" name="CleanUp2" pos="0,0,0" publishUnderTab="CleanUp2">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
