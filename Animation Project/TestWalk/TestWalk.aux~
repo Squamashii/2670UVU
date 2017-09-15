@@ -79,4 +79,8 @@
   <Drawing Key="" Name="17" Version="1"/>
   <Drawing Key="" Name="18" Version="1"/>
  </Element>
+ <Element Name="Drawing" ID="9" Folder="Drawing">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+ </Element>
 </SceneVersion>
