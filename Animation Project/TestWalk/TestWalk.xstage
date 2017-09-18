@@ -201,7 +201,7 @@
       <pt constSeg="false" x="3" yLocal="0" y="0"/>
      </points>
     </column>
-    <column type="0" name="ATV-08CB4EF5F9B032CA" display="false" displayOrder="2" width="100" anonymous="true" id="6">
+    <column type="0" name="ATV-08CB4EF5F9B032CA" displayOrder="2" width="100" anonymous="true" id="6">
      <elementSeq exposures="1-2" val="1" id="6"/>
      <elementSeq exposures="3-4" val="2" id="6"/>
      <elementSeq exposures="5-6" val="3" id="6"/>
@@ -221,7 +221,7 @@
      <elementSeq exposures="33-34" val="18" id="6"/>
      <elementSeq exposures="35-36" val="19" id="6"/>
     </column>
-    <column type="0" name="ATV-08CB4EF5F9BD9924" display="false" displayOrder="1" width="100" anonymous="true" id="7">
+    <column type="0" name="ATV-08CB4EF5F9BD9924" displayOrder="1" width="100" anonymous="true" id="7">
      <elementSeq exposures="1-2,37-38" val="1" id="7"/>
      <elementSeq exposures="3-4,39-40" val="2" id="7"/>
      <elementSeq exposures="5-6" val="3" id="7"/>
