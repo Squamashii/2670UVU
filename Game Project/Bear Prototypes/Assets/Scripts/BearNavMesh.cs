@@ -10,7 +10,7 @@ public class BearNavMesh : MonoBehaviour {
 	NavMeshAgent agent;
 	public int health = 100;
 
-	void OnTriggerEnter(){
+	void Start(){
 		BearActivate.BearGo += BearChase;
 		agent = GetComponent<NavMeshAgent>();
 		}
@@ -18,19 +18,19 @@ public class BearNavMesh : MonoBehaviour {
 	void BearChase()
 		{
 			print("Bear Attacking");
-			//StartCoroutine(BearCoRoutine);
+			StartCoroutine(BearCoRoutine());
 		}
 	
 
-	void Update(){
-		agent.SetDestination(target.position);
-	}
+	//void Update(){
+	//	agent.SetDestination(target.position);
+	//}
 
-	/*IEnumerator BearCoRoutine(){
+	IEnumerator BearCoRoutine(){
 		while(health >= 1){
 		agent.SetDestination(target.position);
 		yield return new WaitForSeconds(0.0001f);
 		}
-	}*/
+	}
 	
 }

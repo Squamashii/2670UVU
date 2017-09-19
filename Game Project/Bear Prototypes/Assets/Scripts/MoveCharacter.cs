@@ -33,19 +33,21 @@ public class MoveCharacter : MonoBehaviour {
 				
 		if(cc.isGrounded)
 		{
+			gravity = 1;
 			tempMove.y = jumpHeight;
 			jumpCount = 1;
-							
 		}
 
 		else if(jumpCount == canJump)
 		{
-			//gravity = 1;
+			gravity = 1;
 			tempMove.y = doubleJumpHeight;
 			jumpCount = 0;
 		}
 
-			
+		else{
+			gravity = 0.2f;
+		}	
 		
 	}
 
