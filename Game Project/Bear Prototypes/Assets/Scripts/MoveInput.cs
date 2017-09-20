@@ -8,6 +8,10 @@ public class MoveInput : MonoBehaviour {
 	public static Action JumpAction;
 
 
+	void Start(){
+		
+	}
+
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Space))
 		{

@@ -8,10 +8,6 @@ public class AddThisToPlayer : MonoBehaviour {
 	public Transform attachObject;
 	//public GameObject assetArt;
 
-	void Start(){
-		StartCoroutine(DropThis());
-	}
-
 	void Awake()
 	{
 		SendWeaponAttach.SendAttachPoint += AttachPointHandler;
@@ -28,15 +24,5 @@ public class AddThisToPlayer : MonoBehaviour {
 		transform.localRotation = Quaternion.identity;
 		//assetArt.SetActive(StaticVars.weaponsEnabled);
 	}
-
-	IEnumerator DropThis(){
-		while(Input.GetKeyDown(KeyCode.X))
-		{
-			print("DROPPED");
-			transform.parent = null;
-			yield return new WaitForSeconds(2);
-		}
-	}
-
-
+	
 }
