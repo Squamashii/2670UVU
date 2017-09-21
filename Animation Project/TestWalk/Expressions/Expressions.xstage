@@ -39,7 +39,13 @@
     <dwg name="5" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="7" elementName="Re-DrawVanilla" elementFolder="Re-DrawVanilla" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+  <element id="7" elementName="Re-DrawVanilla" elementFolder="Re-DrawVanilla" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
+   </drawings>
+  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -56,30 +62,34 @@
  <scenes>
   <scene name="Top" id="08ccb7962a604831" nbframes="60">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="0" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-2,3-19,20-22" val="1" id="1"/>
      <elementSeq exposures="23" val="2" id="1"/>
     </column>
     <column type="0" name="ATV-08CCB7962A604E2A" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-19,20" val="1" id="2"/>
     </column>
-    <column type="0" name="ATV-08CCB7962A6166C5" display="false" displayOrder="0" width="100" anonymous="true" id="4">
+    <column type="0" name="ATV-08CCB7962A6166C5" displayOrder="0" width="100" anonymous="true" id="4">
      <elementSeq exposures="1" val="1" id="4"/>
      <elementSeq exposures="2" val="2" id="4"/>
      <elementSeq exposures="3" val="3" id="4"/>
      <elementSeq exposures="4" val="4" id="4"/>
     </column>
-    <column type="0" name="ATV-08CCBB2B5B20D22B" display="false" displayOrder="0" width="100" anonymous="true" id="5">
+    <column type="0" name="ATV-08CCBB2B5B20D22B" displayOrder="0" width="100" anonymous="true" id="5">
      <elementSeq exposures="1" val="1" id="5"/>
      <elementSeq exposures="2" val="3" id="5"/>
      <elementSeq exposures="3" val="4" id="5"/>
     </column>
-    <column type="0" name="ATV-08CCD1B5D2901C4B" displayOrder="0" width="100" anonymous="true" id="6">
-     <elementSeq exposures="1" val="2" id="6"/>
-     <elementSeq exposures="2" val="1" id="6"/>
+    <column type="0" name="ATV-08CCD1B5D2901C4B" display="false" displayOrder="0" width="100" anonymous="true" id="6">
+     <elementSeq exposures="1-2" val="2" id="6"/>
      <elementSeq exposures="3" val="3" id="6"/>
+     <elementSeq exposures="5" val="1" id="6"/>
     </column>
-    <column type="0" name="ATV-08CCD1B5D29493EA" displayOrder="0" width="100" anonymous="true" id="7"/>
+    <column type="0" name="ATV-08CCD1B5D29493EA" displayOrder="0" width="100" anonymous="true" id="7">
+     <elementSeq exposures="1" val="1" id="7"/>
+     <elementSeq exposures="2" val="3" id="7"/>
+     <elementSeq exposures="3-6" val="2" id="7"/>
+    </column>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -457,6 +467,7 @@
      </module>
      <module type="READ" name="Profile" pos="0,0,0" publishUnderTab="Profile">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>

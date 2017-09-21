@@ -2,6 +2,7 @@
 <SceneVersion VersionName="Expressions" ID="1">
  <Element Name="Drawing" ID="1" Folder="Drawing">
   <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
  </Element>
  <Element Name="Drawing_1" ID="2" Folder="Drawing_1">
   <Drawing Key="" Name="1" Version="1"/>
@@ -17,5 +18,19 @@
  <Element Name="Color" ID="5" Folder="Color">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+ </Element>
+ <Element Name="Profile" ID="6" Folder="Profile">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+ </Element>
+ <Element Name="Re-DrawVanilla" ID="7" Folder="Re-DrawVanilla">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
  </Element>
 </SceneVersion>
