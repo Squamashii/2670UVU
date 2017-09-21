@@ -11,4 +11,6 @@ public class BearActivate : MonoBehaviour {
 	{
 		BearGo();
 	}
+
+
 }
