@@ -32,5 +32,30 @@
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
+ </Element>
+ <Element Name="Smile" ID="8" Folder="Smile">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+ </Element>
+ <Element Name="SmileExtreme" ID="9" Folder="SmileExtreme">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+ </Element>
+ <Element Name="Fear" ID="10" Folder="Fear">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+ </Element>
+ <Element Name="FearExtreme" ID="11" Folder="FearExtreme">
+  <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+ </Element>
+ <Element Name="YellExtreme" ID="12" Folder="YellExtreme">
+  <Drawing Key="" Name="1" Version="1"/>
  </Element>
 </SceneVersion>
