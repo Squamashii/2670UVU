@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,8 +9,8 @@ public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
-    public float speed = 5;
-	public float gravity = 1;
+    float speed;
+	float gravity;
     public float jumpHeight = 0.2f;
 	public float doubleJumpHeight = 0.2f;
 	int canJump = 1;
@@ -21,10 +22,19 @@ public class MoveCharacter : MonoBehaviour {
 	{
 		cc = GetComponent<CharacterController>();
 		PlayButton.Play += OnPlay;
+		ChangeSpeed.SendSpeed = SendSpeedHandler;
+		speed = StaticVars.playerSpeed;
+		gravity = StaticVars.gravity;
 		
 	}
 
-	void OnPlay(){
+    private void SendSpeedHandler(float _speed, float _gravity)
+    {
+        speed = _speed;
+		gravity = _gravity;
+	}
+
+    void OnPlay(){
 		MoveInput.JumpAction = Jump;
 		MoveInput.KeyAction += Move;
 		PlayButton.Play -= OnPlay;
