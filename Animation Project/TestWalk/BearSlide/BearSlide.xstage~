@@ -116,7 +116,7 @@
  <scenes>
   <scene name="Top" id="08ce7c75aa41a255" nbframes="58">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="0" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-13" val="1" id="1"/>
      <elementSeq exposures="14,15,22-23,24,25,26,27,28,29" val="9" id="1"/>
      <elementSeq exposures="16" val="4" id="1"/>
@@ -125,7 +125,7 @@
      <elementSeq exposures="19" val="7" id="1"/>
      <elementSeq exposures="20-21" val="8" id="1"/>
     </column>
-    <column type="0" name="ATV-08CE7C75AA41A8C7" display="false" displayOrder="0" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08CE7C75AA41A8C7" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="12" id="2"/>
      <elementSeq exposures="2" val="13" id="2"/>
      <elementSeq exposures="3" val="14" id="2"/>
