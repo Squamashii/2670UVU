@@ -15,6 +15,8 @@ public class MoveCharacter : MonoBehaviour {
 	int canJump = 1;
 	public int jumpCount = 0;
 
+	public float fallSpeed = 1;
+
 	void Start () 
 	{
 		cc = GetComponent<CharacterController>();
@@ -43,12 +45,13 @@ public class MoveCharacter : MonoBehaviour {
 			gravity = 1;
 			tempMove.y = doubleJumpHeight;
 			jumpCount = 0;
+		}	
+
+		else
+		{
+			tempMove.y -= fallSpeed*Time.deltaTime;
 		}
 
-		else{
-			gravity = 0.2f;
-		}	
-		
 	}
 
 	void Move (float _movement) {
