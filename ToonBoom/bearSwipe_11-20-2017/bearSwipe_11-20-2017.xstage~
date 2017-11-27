@@ -162,7 +162,7 @@
     <dwg name="1" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="6" elementName="CleanUp" elementFolder="CleanUp" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="6" elementName="Mid_02_Torso" elementFolder="Mid_02_Torso" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
@@ -273,7 +273,7 @@
     <dwg name="36" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="8" elementName="CleanUp_Head" elementFolder="CleanUp_Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="8" elementName="Front_01_Head" elementFolder="Front_01_Head" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
@@ -339,7 +339,7 @@
     <dwg name="62" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="9" elementName="scruff" elementFolder="scruff" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="9" elementName="Front_02_Scruff" elementFolder="Front_02_Scruff" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
@@ -403,7 +403,7 @@
     <dwg name="60" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="10" elementName="claws" elementFolder="claws" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="10" elementName="Mid_01_Claws" elementFolder="Mid_01_Claws" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
@@ -454,7 +454,7 @@
     <dwg name="47" scaleFactor="1"/>
    </drawings>
   </element>
-  <element id="11" elementName="back_feet" elementFolder="back_feet" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="11" elementName="Back_01_Legs" elementFolder="Back_01_Legs" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
@@ -681,7 +681,7 @@
     <column type="0" name="ATV-08D4D4925D5064C5" displayOrder="0" width="100" anonymous="true" id="5">
      <elementSeq exposures="1-63" val="1" id="5"/>
     </column>
-    <column type="0" name="ATV-08D8C3141DD021DC" displayOrder="0" width="100" anonymous="true" id="6">
+    <column type="0" name="Mid_02_Torso" displayOrder="0" width="100" anonymous="true" id="6">
      <elementSeq exposures="7" val="1" id="6"/>
      <elementSeq exposures="8" val="2" id="6"/>
      <elementSeq exposures="9" val="3" id="6"/>
@@ -781,7 +781,7 @@
      <elementSeq exposures="52" val="35" id="7"/>
      <elementSeq exposures="53" val="36" id="7"/>
     </column>
-    <column type="0" name="ATV-08D9BB2AA277D538" displayOrder="0" width="100" anonymous="true" id="8">
+    <column type="0" name="Front_01_Head" displayOrder="0" width="100" anonymous="true" id="8">
      <elementSeq exposures="8" val="4" id="8"/>
      <elementSeq exposures="9" val="3" id="8"/>
      <elementSeq exposures="10" val="2" id="8"/>
@@ -843,7 +843,7 @@
      <elementSeq exposures="66" val="61" id="8"/>
      <elementSeq exposures="67" val="62" id="8"/>
     </column>
-    <column type="0" name="ATV-08DEFB8C4DE5B4B2" displayOrder="0" width="100" anonymous="true" id="9">
+    <column type="0" name="Front_02_Scruff" displayOrder="0" width="100" anonymous="true" id="9">
      <elementSeq exposures="8" val="47" id="9"/>
      <elementSeq exposures="9" val="48" id="9"/>
      <elementSeq exposures="10" val="49" id="9"/>
@@ -905,7 +905,7 @@
      <elementSeq exposures="66" val="59" id="9"/>
      <elementSeq exposures="67" val="60" id="9"/>
     </column>
-    <column type="0" name="ATV-08DEFB8C4DE84789" displayOrder="0" width="100" anonymous="true" id="10">
+    <column type="0" name="Mid_01_Claws" displayOrder="0" width="100" anonymous="true" id="10">
      <elementSeq exposures="21" val="3" id="10"/>
      <elementSeq exposures="22" val="2" id="10"/>
      <elementSeq exposures="23" val="1" id="10"/>
@@ -954,7 +954,7 @@
      <elementSeq exposures="66" val="46" id="10"/>
      <elementSeq exposures="67" val="47" id="10"/>
     </column>
-    <column type="0" name="ATV-08DEFB8C4DEF27B7" displayOrder="0" width="100" anonymous="true" id="11">
+    <column type="0" name="Back_01_Legs" displayOrder="0" width="100" anonymous="true" id="11">
      <elementSeq exposures="44" val="52" id="11"/>
      <elementSeq exposures="45" val="51" id="11"/>
      <elementSeq exposures="46" val="50" id="11"/>
@@ -1567,7 +1567,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="CleanUp" pos="0,0,0" publishUnderTab="CleanUp">
+     <module type="READ" name="Mid_02_Torso" pos="0,0,0" publishUnderTab="CleanUp">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1627,7 +1627,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-08D8C3141DD021DC">
+        <element col="Mid_02_Torso">
          <layer/>
         </element>
         <customName>
@@ -1671,7 +1671,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="back_feet" pos="0,0,0" publishUnderTab="back_feet">
+     <module type="READ" name="Back_01_Legs" pos="0,0,0" publishUnderTab="back_feet">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1731,7 +1731,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-08DEFB8C4DEF27B7">
+        <element col="Back_01_Legs">
          <layer/>
         </element>
         <customName>
@@ -1880,7 +1880,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="CleanUp_Head" pos="0,0,0" publishUnderTab="CleanUp_Head">
+     <module type="READ" name="Front_01_Head" pos="0,0,0" publishUnderTab="CleanUp_Head">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1940,7 +1940,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-08D9BB2AA277D538">
+        <element col="Front_01_Head">
          <layer/>
         </element>
         <customName>
@@ -1984,7 +1984,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="scruff" pos="0,0,0" publishUnderTab="scruff">
+     <module type="READ" name="Front_02_Scruff" pos="0,0,0" publishUnderTab="scruff">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -2044,7 +2044,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-08DEFB8C4DE5B4B2">
+        <element col="Front_02_Scruff">
          <layer/>
         </element>
         <customName>
@@ -2088,7 +2088,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="claws" pos="0,0,0" publishUnderTab="claws">
+     <module type="READ" name="Mid_01_Claws" pos="0,0,0" publishUnderTab="claws">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -2148,7 +2148,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="ATV-08DEFB8C4DE84789">
+        <element col="Mid_01_Claws">
          <layer/>
         </element>
         <customName>
@@ -2201,12 +2201,12 @@
      <link out="Stretch" in="Composite" inport="3"/>
      <link out="Stretch2" in="Composite" inport="4"/>
      <link out="BG" in="Composite" inport="0"/>
-     <link out="CleanUp" in="Composite" inport="7"/>
-     <link out="back_feet" in="Composite" inport="6"/>
+     <link out="Mid_02_Torso" in="Composite" inport="7"/>
+     <link out="Back_01_Legs" in="Composite" inport="6"/>
      <link out="Construction_For_CleanUp" in="Composite" inport="5"/>
-     <link out="CleanUp_Head" in="Composite" inport="10"/>
-     <link out="scruff" in="Composite" inport="9"/>
-     <link out="claws" in="Composite" inport="8"/>
+     <link out="Front_01_Head" in="Composite" inport="10"/>
+     <link out="Front_02_Scruff" in="Composite" inport="9"/>
+     <link out="Mid_01_Claws" in="Composite" inport="8"/>
     </linkedlist>
    </rootgroup>
   </scene>

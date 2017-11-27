@@ -151,7 +151,7 @@
  <Element Name="BG" ID="5" Folder="BG">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="CleanUp" ID="6" Folder="CleanUp">
+ <Element Name="Mid_02_Torso" ID="6" Folder="Mid_02_Torso">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
@@ -258,7 +258,7 @@
   <Drawing Key="" Name="35" Version="1"/>
   <Drawing Key="" Name="36" Version="1"/>
  </Element>
- <Element Name="CleanUp_Head" ID="8" Folder="CleanUp_Head">
+ <Element Name="Front_01_Head" ID="8" Folder="Front_01_Head">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
@@ -322,7 +322,7 @@
   <Drawing Key="" Name="61" Version="1"/>
   <Drawing Key="" Name="62" Version="1"/>
  </Element>
- <Element Name="scruff" ID="9" Folder="scruff">
+ <Element Name="Front_02_Scruff" ID="9" Folder="Front_02_Scruff">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
@@ -384,7 +384,7 @@
   <Drawing Key="" Name="59" Version="1"/>
   <Drawing Key="" Name="60" Version="1"/>
  </Element>
- <Element Name="claws" ID="10" Folder="claws">
+ <Element Name="Mid_01_Claws" ID="10" Folder="Mid_01_Claws">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
@@ -433,7 +433,7 @@
   <Drawing Key="" Name="46" Version="1"/>
   <Drawing Key="" Name="47" Version="1"/>
  </Element>
- <Element Name="back_feet" ID="11" Folder="back_feet">
+ <Element Name="Back_01_Legs" ID="11" Folder="Back_01_Legs">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
