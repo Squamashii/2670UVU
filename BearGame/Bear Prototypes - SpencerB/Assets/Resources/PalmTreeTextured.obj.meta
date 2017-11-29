@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: dcc80345f51e58c4d9f840292df934b5
+timeCreated: 1511906393
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: PalmTree:PalmTree_PalmTree:pCube10_PalmTree_Textured
+    100002: PalmTree:PalmTree_PalmTree:pCube11_PalmTree_Textured
+    100004: PalmTree:PalmTree_PalmTree:pCube12_PalmTree_Textured
+    100006: PalmTree:PalmTree_PalmTree:pCube13_PalmTree_Textured
+    100008: PalmTree:PalmTree_PalmTree:pCube14_PalmTree_Textured
+    100010: PalmTree:PalmTree_PalmTree:pCube15_PalmTree_Textured
+    100012: PalmTree:PalmTree_PalmTree:pCube1_PalmTree_Textured
+    100014: PalmTree:PalmTree_PalmTree:pCube4_PalmTree_Textured
+    100016: PalmTree:PalmTree_PalmTree:pCube5_PalmTree_Textured
+    100018: PalmTree:PalmTree_PalmTree:pCube6_PalmTree_Textured
+    100020: PalmTree:PalmTree_PalmTree:pCube7_PalmTree_Textured
+    100022: PalmTree:PalmTree_PalmTree:pCube8_PalmTree_Textured
+    100024: PalmTree:PalmTree_PalmTree:pCube9_PalmTree_Textured
+    100026: //RootNode
+    400000: PalmTree:PalmTree_PalmTree:pCube10_PalmTree_Textured
+    400002: PalmTree:PalmTree_PalmTree:pCube11_PalmTree_Textured
+    400004: PalmTree:PalmTree_PalmTree:pCube12_PalmTree_Textured
+    400006: PalmTree:PalmTree_PalmTree:pCube13_PalmTree_Textured
+    400008: PalmTree:PalmTree_PalmTree:pCube14_PalmTree_Textured
+    400010: PalmTree:PalmTree_PalmTree:pCube15_PalmTree_Textured
+    400012: PalmTree:PalmTree_PalmTree:pCube1_PalmTree_Textured
+    400014: PalmTree:PalmTree_PalmTree:pCube4_PalmTree_Textured
+    400016: PalmTree:PalmTree_PalmTree:pCube5_PalmTree_Textured
+    400018: PalmTree:PalmTree_PalmTree:pCube6_PalmTree_Textured
+    400020: PalmTree:PalmTree_PalmTree:pCube7_PalmTree_Textured
+    400022: PalmTree:PalmTree_PalmTree:pCube8_PalmTree_Textured
+    400024: PalmTree:PalmTree_PalmTree:pCube9_PalmTree_Textured
+    400026: //RootNode
+    2300000: PalmTree:PalmTree_PalmTree:pCube10_PalmTree_Textured
+    2300002: PalmTree:PalmTree_PalmTree:pCube11_PalmTree_Textured
+    2300004: PalmTree:PalmTree_PalmTree:pCube12_PalmTree_Textured
+    2300006: PalmTree:PalmTree_PalmTree:pCube13_PalmTree_Textured
+    2300008: PalmTree:PalmTree_PalmTree:pCube14_PalmTree_Textured
+    2300010: PalmTree:PalmTree_PalmTree:pCube15_PalmTree_Textured
+    2300012: PalmTree:PalmTree_PalmTree:pCube1_PalmTree_Textured
+    2300014: PalmTree:PalmTree_PalmTree:pCube4_PalmTree_Textured
+    2300016: PalmTree:PalmTree_PalmTree:pCube5_PalmTree_Textured
+    2300018: PalmTree:PalmTree_PalmTree:pCube6_PalmTree_Textured
+    2300020: PalmTree:PalmTree_PalmTree:pCube7_PalmTree_Textured
+    2300022: PalmTree:PalmTree_PalmTree:pCube8_PalmTree_Textured
+    2300024: PalmTree:PalmTree_PalmTree:pCube9_PalmTree_Textured
+    3300000: PalmTree:PalmTree_PalmTree:pCube10_PalmTree_Textured
+    3300002: PalmTree:PalmTree_PalmTree:pCube11_PalmTree_Textured
+    3300004: PalmTree:PalmTree_PalmTree:pCube12_PalmTree_Textured
+    3300006: PalmTree:PalmTree_PalmTree:pCube13_PalmTree_Textured
+    3300008: PalmTree:PalmTree_PalmTree:pCube14_PalmTree_Textured
+    3300010: PalmTree:PalmTree_PalmTree:pCube15_PalmTree_Textured
+    3300012: PalmTree:PalmTree_PalmTree:pCube1_PalmTree_Textured
+    3300014: PalmTree:PalmTree_PalmTree:pCube4_PalmTree_Textured
+    3300016: PalmTree:PalmTree_PalmTree:pCube5_PalmTree_Textured
+    3300018: PalmTree:PalmTree_PalmTree:pCube6_PalmTree_Textured
+    3300020: PalmTree:PalmTree_PalmTree:pCube7_PalmTree_Textured
+    3300022: PalmTree:PalmTree_PalmTree:pCube8_PalmTree_Textured
+    3300024: PalmTree:PalmTree_PalmTree:pCube9_PalmTree_Textured
+    4300000: PalmTree:PalmTree_PalmTree:pCube10_PalmTree_Textured
+    4300002: PalmTree:PalmTree_PalmTree:pCube11_PalmTree_Textured
+    4300004: PalmTree:PalmTree_PalmTree:pCube12_PalmTree_Textured
+    4300006: PalmTree:PalmTree_PalmTree:pCube13_PalmTree_Textured
+    4300008: PalmTree:PalmTree_PalmTree:pCube14_PalmTree_Textured
+    4300010: PalmTree:PalmTree_PalmTree:pCube15_PalmTree_Textured
+    4300012: PalmTree:PalmTree_PalmTree:pCube1_PalmTree_Textured
+    4300014: PalmTree:PalmTree_PalmTree:pCube4_PalmTree_Textured
+    4300016: PalmTree:PalmTree_PalmTree:pCube5_PalmTree_Textured
+    4300018: PalmTree:PalmTree_PalmTree:pCube6_PalmTree_Textured
+    4300020: PalmTree:PalmTree_PalmTree:pCube7_PalmTree_Textured
+    4300022: PalmTree:PalmTree_PalmTree:pCube8_PalmTree_Textured
+    4300024: PalmTree:PalmTree_PalmTree:pCube9_PalmTree_Textured
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

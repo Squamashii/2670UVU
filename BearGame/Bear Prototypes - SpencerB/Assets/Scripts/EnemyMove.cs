@@ -28,7 +28,7 @@ public Animator anim;
 	void OnTriggerEnter(){
 		StartCoroutine(Follow());
 		anim.SetTrigger ("CanRun");
-		print ("Triggered");
+		
 		
 		
 	}
