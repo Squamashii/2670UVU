@@ -9,3 +9,4 @@ Solid    Skin                       0x08dfd2faf6465535 214 182 126 255
 Solid    Pants                      0x08dfd2faf6478457   0  69 198 255
 Solid    Belt                       0x08dfd2faf648031a 169  12  65 255
 Solid    Shirt                      0x08dfd2faf648547f   0   0   0 255
+Solid    OB_Shirt                   0x08e05963b0a68f7c 214 255 255 255
