@@ -1,15 +1,15 @@
-﻿using System;
+﻿using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PianoSong : MonoBehaviour {
 
-	public static Action WinSong;
-	public static Action<float> ProgressBar;
-	public static Action<float> StairAct;
+	public static UnityAction WinSong;
+	public static UnityAction<float> ProgressBar;
+	public static UnityAction<float> StairAct;
 	public float stairVar = 0;
-	public static Action Dart;
+	public static UnityAction Dart;
 	public int progress = 0; // Out of 4?
 	public int songStep = 1;
 

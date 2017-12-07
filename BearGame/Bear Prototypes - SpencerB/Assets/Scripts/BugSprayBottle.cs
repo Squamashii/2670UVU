@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class BugSprayBottle : MonoBehaviour {
 
 	public GameObject Explosion;
 	public Rigidbody rb;
-	public static Action BugBomb;
+	public static UnityAction BugBomb;
 
 	
 	// Use this for initialization

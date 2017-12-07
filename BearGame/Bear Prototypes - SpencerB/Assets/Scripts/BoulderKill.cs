@@ -1,14 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class BoulderKill : MonoBehaviour {
 
 public Transform boulderSpawn;
 public Rigidbody BoulderRB;
 public GameObject Step;
-	//public static Action InstaKill;
+	//public static UnityAction InstaKill;
 	void OnTriggerEnter (Collider other) {
 		if(other.gameObject.name == "Player"){
 			BoulderRB.isKinematic = true;

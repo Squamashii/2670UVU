@@ -1,4 +1,4 @@
-﻿using System;
+﻿using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour {
 
 	public Transform Checkpoint;
 	public int cp = 1;
-	public static Action<int> cpAction; //This action will tell objects with the right cpNum (Checkpoint number) to reset.
+	public static UnityAction<int> cpAction; //This UnityAction will tell objects with the right cpNum (Checkpoint number) to reset.
 
 	void Start () {
 		PlayerCheckpoint.LastPosition = SetLastPosition;	

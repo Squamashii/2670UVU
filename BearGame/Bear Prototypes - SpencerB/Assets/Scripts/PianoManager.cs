@@ -1,14 +1,14 @@
-﻿using System;
+﻿using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PianoManager : MonoBehaviour {
-	public static Action Dart;
+	public static UnityAction Dart;
 	public int[] answerKey;
 	private int step = 0;
-	public static Action<float> StairThing;
-	public static Action Winner;
+	public static UnityAction<float> StairThing;
+	public static UnityAction Winner;
 	public GameObject Stairs;
 
 	void Start(){

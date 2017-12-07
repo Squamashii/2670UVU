@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class ChangeSpeed : MonoBehaviour {
 
-	public static Action<float, float, bool> SendSpeed;
+	public static UnityAction<float, float, bool> SendSpeed;
 	public Data.GameSpeed speedType;
 
 	public int maxJump;

@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class MoveInput : MonoBehaviour {
 
-	public static Action<float> KeyAction;
-	public static Action JumpAction;
+	public static UnityAction<float> KeyAction;
+	public static UnityAction JumpAction;
 		
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.UpArrow))

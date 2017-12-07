@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class RaftTrigger : MonoBehaviour {
 
-	public static Action RaftGo;
+	public static UnityAction RaftGo;
 	public GameObject Trigger;	
 	void OnTriggerEnter () {
 		RaftGo();	
