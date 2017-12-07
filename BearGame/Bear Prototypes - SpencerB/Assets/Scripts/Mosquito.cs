@@ -11,8 +11,11 @@ public bool alive = true;
 public bool resting = true;
 public GameObject ThisBug;
 
+AudioSource buzzNoise;
+
 
 	void Start(){
+		buzzNoise = GetComponent<AudioSource>();
 		StartCoroutine(MosquitoRelax());
 		Menu.Reset += ResetHandler;
 	}
@@ -26,7 +29,7 @@ public GameObject ThisBug;
     }
 
     void OnTriggerEnter(Collider other){			
-			
+		buzzNoise.Play();
 		if(other.gameObject.name == "Player")
 		{
 			resting = false;
