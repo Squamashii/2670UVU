@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
+using UnityEngine.Events;
 
 public class Menu : MonoBehaviour {
 
-	public static Action Reset;
+	public static UnityAction Reset;
 	public GameObject MenuPanel;
 
 

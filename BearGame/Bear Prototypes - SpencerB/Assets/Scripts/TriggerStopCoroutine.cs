@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class TriggerStopCoroutine : MonoBehaviour {
 
-	public static Action StopActions;
+	public static UnityAction StopActions;
 	void OnTriggerEnter(Collider other){
 		StopActions();
 	}

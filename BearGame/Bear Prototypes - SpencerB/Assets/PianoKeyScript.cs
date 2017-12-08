@@ -1,14 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(AudioSource))]
 
 public class PianoKeyScript : MonoBehaviour {
 
 //Action to send the note to the Music Manager
-public static Action<int> NoteData;
+public static UnityAction<int> NoteData;
 //-----------------------------------------------
 public int pitchOffset;
 	

@@ -1,14 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 public class DartGun : MonoBehaviour {
 
 public Transform DartSpawn;
 public Rigidbody dartRB;
 public GameObject dartGO;
 public float shootSpeed;
-public static Action<float> Damage;
+public static UnityAction<float> Damage;
 public float hitPoints;
 	
 //--------------------------------------------------------

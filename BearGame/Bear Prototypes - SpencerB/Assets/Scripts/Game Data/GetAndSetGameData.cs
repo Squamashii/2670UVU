@@ -1,11 +1,11 @@
-﻿using System;
+﻿using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GetAndSetGameData : MonoBehaviour {
 	
-	public static Action<int> UpdateGold;
+	public static UnityAction<int> UpdateGold;
 
 	void Awake() {
 		ForPurchase.PurchaseAction += PurchaseHandler;

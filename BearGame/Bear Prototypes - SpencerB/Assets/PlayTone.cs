@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(AudioSource))]
 public class PlayTone : MonoBehaviour {
