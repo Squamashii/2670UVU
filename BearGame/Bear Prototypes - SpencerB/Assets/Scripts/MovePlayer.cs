@@ -10,6 +10,7 @@ public class MovePlayer : MonoBehaviour {
 
 	public bool jumping = false;
 
+	public static UnityAction DustAction;
 	public Animator anim;
 	public CharacterController cc;
 	Vector3 tempMove;
@@ -64,7 +65,6 @@ public class MovePlayer : MonoBehaviour {
 											
 		}		
 	}
-
 	void Move (float _movement) {
 		tempMove.y -= gravity*Time.deltaTime;
 		tempMove.x = _movement*speed*Time.deltaTime;
@@ -73,15 +73,23 @@ public class MovePlayer : MonoBehaviour {
 
 		if(cc.isGrounded)
 		{
+			
 			jumpAmount = 0;
-			anim.SetBool("Jump", false);
-			anim.SetBool("CanFlip", false);
-								
+			anim.SetBool("Jump", false);			
+			anim.SetBool("CanFlip", false);	
+													
 		}	
-
+		
 		if(jumpAmount == 2)
 		{
 			anim.SetBool("CanFlip", true);
 		}
+
+		if(cc.isGrounded && Mathf.Abs(_movement) > 0.01f){
+			DustAction();
+		}
+		
 	}
+
+	
 }

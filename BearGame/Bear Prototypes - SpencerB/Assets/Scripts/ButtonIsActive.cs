@@ -11,7 +11,6 @@ public class ButtonIsActive : MonoBehaviour {
 	{
 		ToTurnOn.SetActive(true);
 		ToTurnOff.SetActive(false);
-		print("Triggered 123456789");
 	}
 
 	void OnTriggerExit () 

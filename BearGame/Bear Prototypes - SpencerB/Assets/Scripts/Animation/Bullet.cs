@@ -9,14 +9,14 @@ public static UnityAction<Bullet> SendBullet;
 private Rigidbody rigid;
 public Transform weapon;
 public float force = 100;
-
-private Transform shelf;
+public Transform shelf;
 	// Use this for initialization
 	void Start () {
 		SendBullet(this);
 		rigid = GetComponent<Rigidbody>();
 		//gameObject.SetActive(false);
 		shelf.position = transform.position;
+		print(gameObject.name);
 	}
 	
 	public void Fire()
@@ -29,7 +29,7 @@ private Transform shelf;
 	void OnBecameInvisible()
 	{
 		SendBullet(this);
-		rigid.Sleep(); //Sleep is a funcction that stops a rigidbody from moving 
+		//rigid.Sleep(); //Sleep is a funcction that stops a rigidbody from moving 
 		//gameObject.SetActive(false);
 		transform.position = shelf.position;
 	}
